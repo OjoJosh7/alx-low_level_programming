@@ -1,7 +1,8 @@
-# include<stdio.h>
-int main()
+# include < stdio.h >
+
+int main(void)
 {
-	char hello[]="Programming is like building a multilingual puzzle";
-		puts(hello);
-		return o;
+	char Hello[] = "Programming is like building a multilingual puzzle";
+	puts(Hello);
+	return (0);
 }
