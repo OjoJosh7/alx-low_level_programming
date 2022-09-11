@@ -1,8 +1,14 @@
-# include < stdio.h >
+# include<stdio.h>
+
+/**
+ * main - displays a sentence
+ *
+ * Returns: Always 0 (success)
+ */
 
 int main(void)
 {
-	char Hello[] = "Programming is like building a multilingual puzzle";
-	puts(Hello);
+	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
