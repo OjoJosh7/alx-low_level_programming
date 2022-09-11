@@ -1,9 +1,9 @@
 # include<stdio.h>
 
 /**
- * main - displays a sentence
+ *main - displays a sentence
  *
- * Returns: Always 0 (success)
+ *Returns: Always 0 (success)
  */
 
 int main(void)
