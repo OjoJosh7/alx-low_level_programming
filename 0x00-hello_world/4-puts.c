@@ -1,9 +1,8 @@
 # include<stdio.h>
-
 /**
- *main - print the string in the put function
- * Description: using the main function
- *Returns: Always 0 (success)
+ * main - it initiates the code in the block
+ * puts: displays the text
+ * Return: Always 0 (success)
  */
 
 int main(void)
