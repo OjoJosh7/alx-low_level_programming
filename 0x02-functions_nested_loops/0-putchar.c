@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - It initiates the code block 
+ * main - It initiates the code block
  * Return: Always 0 (success)
  */
 int main(void)
