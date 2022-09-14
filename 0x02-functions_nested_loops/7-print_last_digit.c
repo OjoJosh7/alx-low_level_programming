@@ -13,8 +13,8 @@ int print_last_digit(int r)
 
 	if (p < 0)
 	{
-		p = (p * -1);
+		p = (-1 * p);
 	}
-	_putchar('0' + r);
+	_putchar('0' + p);
 	return (p);
-}	
+}
