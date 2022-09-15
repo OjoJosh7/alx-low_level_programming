@@ -6,7 +6,7 @@
  * Return: table 9
  */
 
-void times_table(void);
+void times_table(void)
 {
 	int i, j, d;
 
