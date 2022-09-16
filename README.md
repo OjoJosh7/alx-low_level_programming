@@ -1,1 +1,1 @@
-My first C program
+This folder is about manual debugging
