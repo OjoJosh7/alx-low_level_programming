@@ -1,13 +1,13 @@
-include "holberton.h"
-
+#include "main.h"
 /**
  * print_triangle - a function that prints a triangle
  * @size: size of the triangle
  * Return: triangle of '#'s
  */
+
 void print_triangle(int size)
 {
-	int sp, ro, tr;
+	int x, y, z;
 
 	if (size <= 0)
 	{
@@ -15,13 +15,13 @@ void print_triangle(int size)
 	}
 	else
 	{
-		for (ro = 0; ro <= (size - 1); ro++)
+		for (y = 0; y <= (size - 1); y++)
 		{
-			for (sp = 0; sp < (size - 1) - ro; sp++)
+			for (x = 0; x < (size - 1) - y; x++)
 			{
 				_putchar(' ');
 			}
-			for (tr = 0; tr <= ro; tr++)
+			for (z = 0; z <= y; z++)
 			{
 				_putchar('#');
 			}
