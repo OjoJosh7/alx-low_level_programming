@@ -18,6 +18,7 @@ char *leet(char *n)
 			if (n[i] == Alph[a])
 			{
 				n[i] = Num[a / 2];
+				a = 9;
 			}
 		}
 	}
