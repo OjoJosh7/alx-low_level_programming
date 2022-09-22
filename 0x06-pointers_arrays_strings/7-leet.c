@@ -13,12 +13,12 @@ char *leet(char *n)
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (a = 0; a <= 10; a++)
+		for (a = 0; a <= 9; a++)
 		{
 			if (n[i] == Alph[a])
 			{
 				n[i] = Num[a / 2];
-				a = 10;
+				a = 9;
 			}
 		}
 	}
